@@ -1,24 +1,29 @@
-### Hi, I'm Gregory Jing
+# Hi, I'm Gregory 👋
 
-AI 应用开发工程师，工作之余探索 Agent 基础设施和大模型应用工程化。
+AI 应用开发工程师，专注于 **LLM Application Engineering**。
 
-对 LLM 落地实践的两个方向比较感兴趣：一是多步骤 Agent 的可靠执行——任务规划、DAG 并行、容错恢复；二是 LLM 输出质量的量化监控——验收标准、基线回归、退化告警。业余时间把这些想法做成了项目，都有完整的测试覆盖。
+目前主要探索两个方向：
+
+**Reliable Agent Execution**
+如何让多步骤 Agent 稳定完成复杂任务——任务规划、工作流编排、DAG 并行、状态管理、容错与断点恢复。
+
+**LLM Quality Engineering**
+如何量化和持续验证 LLM 应用的输出质量——Benchmark、验收标准、基线管理、回归测试与退化检测。
+
+## Projects
+
+### [AgentFlow](https://github.com/gregoryjing/agentflow)
+
+Reliable execution engine for multi-step AI agents.
+
+四阶段 Agent Pipeline · DAG 并行执行 · 双模型协作规划 · Checkpoint 断点恢复 · Fault Tolerance · **95 Tests**
+
+### [llm-intel-kb](https://github.com/gregoryjing/llm-intel-kb)
+
+Engineering-oriented RAG with evaluation and regression testing.
+
+Hybrid Retrieval · RAG Pipeline · Benchmark · Baseline Management · Regression Testing · Quality Monitoring
 
 ---
 
-#### [AgentFlow](https://github.com/gregoryjing/agentflow)
-
-Agent 工作流引擎——四阶段管线、DAG 并行执行、双模型协作规划、checkpoint 断点恢复，95 项测试。
-
-[llm-intel-kb](https://github.com/gregoryjing/llm-intel-kb) — 工程化 RAG 知识库，混合检索 + 基准回归评测。
-
----
-
-**Stack**
- · Python · RAG · Agent · SFT/LoRA · Prompt Engineering · SQLite · Docker · TRAE
-
-## Publication
-
-- [EEG Signal Decoding via Grey Wolf Optimization and Multi-Feature Fusion](https://doi.org/10.1145/3727648.3727818) — CAICE '25, ACM
-
-gregoryjing@163.com
+**Building LLM applications that are not only capable, but also reliable and measurable.**
