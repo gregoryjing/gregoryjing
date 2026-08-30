@@ -1,4 +1,4 @@
-# Hi, I'm Gregory Jing👋
+# Hi, I'm Gregory Jing 👋
 
 AI 应用开发工程师，关注 **LLM Application Engineering**，目前主要探索如何让大模型应用从“能跑”走向 **可靠执行、可量化评估和持续演进**。
 
@@ -98,26 +98,10 @@ The experimental results demonstrate the effectiveness of combining complementar
 
 ---
 
-## 🎯 What I'm Exploring
+## 🎯 Engineering Focus
 
-`Agent Runtime` · `Workflow Orchestration` · `RAG` · `LLM Evaluation` · `LLM Quality Engineering` · `AI Application Infrastructure`Agent Runtime · Workflow Orchestration · RAG · LLM Evaluation · LLM Quality Engineering · AI Application Infrastructure
+Building LLM applications that are **reliable, measurable, and maintainable**.
 
-希望持续探索一个问题：
+`Agent Runtime` · `Workflow Orchestration` · `RAG` · `LLM Evaluation` · `LLM Quality Engineering`
 
-> **How do we make LLM applications more reliable, measurable, and maintainable?**
-
----
-
-### 💡 Engineering Philosophy
-
-LLM 应用真正进入生产环境后，核心问题往往不只是：
-
-> **Can it work?**
-
-而是：
-
-> **Can it work reliably?**
-> **Can we measure its quality?**
-> **Can we detect when it gets worse?Can it work reliably?Can we measure its quality?Can we detect when it gets worse?**
-
-我希望围绕这些问题持续构建和实践。
+> **Build it. Measure it. Make it reliable.**
