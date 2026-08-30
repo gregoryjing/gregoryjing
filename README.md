@@ -1,6 +1,6 @@
 # Hi, I'm Gregory Jing 👋
 
-AI 应用开发工程师，关注 **LLM Application Engineering**，目前主要探索如何让大模型应用从“能跑”走向 **可靠执行、可量化评估和持续演进**。
+AI 应用开发工程师，专注于 **LLM Application Engineering**，目前主要探索如何让大模型应用从“能跑”走向 **可靠执行、可量化评估和持续演进**。
 
 我目前主要关注两个方向：
 
@@ -26,7 +26,7 @@ AI 应用开发工程师，关注 **LLM Application Engineering**，目前主要
 * 异常处理与执行容错
 * **95 项自动化测试**覆盖核心执行链路
 
-> **Focus:** Agent Orchestration · DAG Execution · State Management · Fault Tolerance · Checkpoint Recovery
+> **Focus:** Agent Reliability · Workflow Orchestration · DAG Execution · Fault Tolerance · Checkpoint Recovery
 
 ---
 
@@ -42,7 +42,7 @@ AI 应用开发工程师，关注 **LLM Application Engineering**，目前主要
 * 基线结果记录与 Regression Testing
 * 能力变化与性能退化检测
 
-> **Focus:** RAG Engineering · Hybrid Retrieval · Evaluation · Benchmark · Regression · Testing
+> **Focus:** RAG Engineering · Hybrid Retrieval · Evaluation · Benchmark · Regression Testing
 
 ---
 
@@ -56,41 +56,13 @@ Published at **CAICE 2025 — The 4th International Conference on Computer, Arti
 
 [**DOI: 10.1145/3727648.3727818**](https://doi.org/10.1145/3727648.3727818)
 
-This work investigates **motor imagery EEG signal decoding** using the BCI Competition IV 2a dataset. A multi-feature fusion framework is developed by combining **Discrete Wavelet Transform (DWT)**, **Autoregressive (AR) modeling**, and **Common Spatial Patterns (CSP)**, with **Grey Wolf Optimization (GWO)** applied for feature selection.
-
-### Method
-
-```text
-EEG Signal
-    │
-    ├── DWT ──→ Time-Frequency Features
-    │
-    ├── AR  ──→ Temporal Features
-    │
-    └── CSP ──→ Spatial Features
-              │
-              ▼
-        Feature Fusion
-              │
-              ▼
-        GWO Feature Selection
-              │
-              ▼
-        Classification
-```
-
-### Experimental Results
+This work investigates **motor imagery EEG signal decoding** using the BCI Competition IV 2a dataset. A multi-feature fusion framework combines **Discrete Wavelet Transform (DWT)**, **Autoregressive (AR) modeling**, and **Common Spatial Patterns (CSP)**, with **Grey Wolf Optimization (GWO)** for feature selection.
 
 * **Dataset:** BCI Competition IV 2a
-* **Subjects:** 9
-* **Motor Imagery Classes:** Left Hand · Right Hand · Both Feet · Tongue
-* **Sampling Rate:** 250 Hz
-* **Core Methods:** DWT · AR · CSP · GWO
+* **Methods:** DWT · AR · CSP · GWO
 * **Accuracy:** **96.20%**
 * **Precision:** **97.71%**
 * **Recall:** **94.81%**
-
-The experimental results demonstrate the effectiveness of combining complementary time-frequency, temporal, and spatial features, while GWO-based feature selection further improves the overall classification performance.
 
 > **Focus:** EEG Signal Processing · Feature Fusion · Feature Selection · Machine Learning · Optimization
 
