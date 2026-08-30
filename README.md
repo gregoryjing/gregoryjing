@@ -100,7 +100,7 @@ The experimental results demonstrate the effectiveness of combining complementar
 
 ## 🎯 What I'm Exploring
 
-`Agent Runtime` · `Workflow Orchestration` · `RAG` · `LLM Evaluation` · `LLM Quality Engineering` · `AI Application Infrastructure`
+`Agent Runtime` · `Workflow Orchestration` · `RAG` · `LLM Evaluation` · `LLM Quality Engineering` · `AI Application Infrastructure`Agent Runtime · Workflow Orchestration · RAG · LLM Evaluation · LLM Quality Engineering · AI Application Infrastructure
 
 希望持续探索一个问题：
 
@@ -118,6 +118,6 @@ LLM 应用真正进入生产环境后，核心问题往往不只是：
 
 > **Can it work reliably?**
 > **Can we measure its quality?**
-> **Can we detect when it gets worse?**
+> **Can we detect when it gets worse?Can it work reliably?Can we measure its quality?Can we detect when it gets worse?**
 
 我希望围绕这些问题持续构建和实践。
