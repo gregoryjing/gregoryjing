@@ -10,7 +10,7 @@ AI 应用开发工程师，工作之余探索 Agent 基础设施和大模型应�
 
 Agent 工作流引擎——四阶段管线、DAG 并行执行、双模型协作规划、checkpoint 断点恢复。95 项测试。
 
-[llm-intel-kb](https://github.com/gregoryjing/llm-intel-kb) — 工程化 RAG 知识库，混合检索 + 金标准回归评测。
+[llm-intel-kb](https://github.com/gregoryjing/llm-intel-kb) — 工程化 RAG 知识库，混合检索 + 基准回归评测。
 
 ---
 
