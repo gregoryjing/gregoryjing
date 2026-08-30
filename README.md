@@ -15,7 +15,7 @@ AI 应用开发工程师，关注 **LLM Application Engineering**，目前主要
 
 ### [AgentFlow](https://github.com/gregoryjing/agentflow)
 
-**A reliable execution engine for multi-step AI agents.A reliable execution engine for multi-step AI agents.**
+**A reliable execution engine for multi-step AI agents.**
 
 面向多步骤 Agent 的轻量级工作流执行引擎，关注 Agent 从“能够调用工具”到“能够稳定完成复杂任务”的执行可靠性。
 
@@ -26,7 +26,7 @@ AI 应用开发工程师，关注 **LLM Application Engineering**，目前主要
 * 异常处理与执行容错
 * **95 项自动化测试**覆盖核心执行链路
 
-> **Focus:** Agent Orchestration · DAG Execution · State Management · Fault Tolerance · Checkpoint RecoveryFocus: Agent Orchestration · DAG Execution · State Management · Fault Tolerance · Checkpoint Recovery
+> **Focus:** Agent Orchestration · DAG Execution · State Management · Fault Tolerance · Checkpoint Recovery
 
 ---
 
@@ -48,31 +48,59 @@ AI 应用开发工程师，关注 **LLM Application Engineering**，目前主要
 
 ## 📚 Research
 
-### EEG-based Motor Imagery Classification
+### Research on Decoding EEG Signals Based on Grey Wolf Optimization Algorithm for Multi-Feature Fusion
 
-**DACG: A Multi-Feature Fusion Algorithm for EEG Motor Imagery Classification**DACG: A Multi-Feature Fusion Algorithm for EEG Motor Imagery Classification
+**Yujing Guo · Pengfei Ma**
 
-基于 **BCI Competition IV 2a** 数据集研究 EEG 运动想象分类问题，提出融合 **DWT + AR + CSP + GWO** 的多特征融合算法 DACG。基于 BCI Competition IV 2a 数据集研究 EEG 运动想象分类问题，提出融合 DWT + AR + CSP + GWO 的多特征融合算法 DACG。
+Published at **CAICE 2025 — The 4th International Conference on Computer, Artificial Intelligence and Control Engineering**
 
-通过融合时频、时序与空间特征，并利用 Grey Wolf Optimization（GWO）进行特征选择，对不同特征组合与参数配置进行实验评估。
+[**DOI: 10.1145/3727648.3727818**](https://doi.org/10.1145/3727648.3727818)
+
+This work investigates **motor imagery EEG signal decoding** using the BCI Competition IV 2a dataset. A multi-feature fusion framework is developed by combining **Discrete Wavelet Transform (DWT)**, **Autoregressive (AR) modeling**, and **Common Spatial Patterns (CSP)**, with **Grey Wolf Optimization (GWO)** applied for feature selection.
+
+### Method
+
+```text
+EEG Signal
+    │
+    ├── DWT ──→ Time-Frequency Features
+    │
+    ├── AR  ──→ Temporal Features
+    │
+    └── CSP ──→ Spatial Features
+              │
+              ▼
+        Feature Fusion
+              │
+              ▼
+        GWO Feature Selection
+              │
+              ▼
+        Classification
+```
+
+### Experimental Results
 
 * **Dataset:** BCI Competition IV 2a
-* **Methods:** DWT · AR · CSP · GWOMethods: DWT · AR · CSP · GWO
+* **Subjects:** 9
+* **Motor Imagery Classes:** Left Hand · Right Hand · Both Feet · Tongue
+* **Sampling Rate:** 250 Hz
+* **Core Methods:** DWT · AR · CSP · GWOCore Methods: DWT · AR · CSP · GWO
 * **Accuracy:** **96.20%**
 * **Precision:** **97.71%**
 * **Recall:** **94.81%**
 
-> **Focus:** EEG Signal Processing · Feature Fusion · Feature Selection · Machine Learning
+The experimental results demonstrate the effectiveness of combining complementary time-frequency, temporal, and spatial features, while GWO-based feature selection further improves the overall classification performance.
 
-**Paper:** [ACM Digital Library / DOI]
+> **Focus:** EEG Signal Processing · Feature Fusion · Feature Selection · Machine Learning · Optimization
 
-**Code:** [Repository]
+**Paper:** [ACM Digital Library](https://dl.acm.org/doi/10.1145/3727648.3727818) · [DOI](https://doi.org/10.1145/3727648.3727818)
 
 ---
 
 ## 🎯 What I'm Exploring
 
-`Agent Runtime` · `Workflow Orchestration` · `RAG` · `LLM Evaluation` · `LLM Quality Engineering` · `AI Application Infrastructure`Agent Runtime · Workflow Orchestration · RAG · LLM Evaluation · LLM Quality Engineering · AI Application Infrastructure
+`Agent Runtime` · `Workflow Orchestration` · `RAG` · `LLM Evaluation` · `LLM Quality Engineering` · `AI Application Infrastructure`
 
 希望持续探索一个问题：
 
@@ -90,6 +118,6 @@ LLM 应用真正进入生产环境后，核心问题往往不只是：
 
 > **Can it work reliably?**
 > **Can we measure its quality?**
-> **Can we detect when it gets worse?Can it work reliably?Can we measure its quality?Can we detect when it gets worse?**
+> **Can we detect when it gets worse?**
 
 我希望围绕这些问题持续构建和实践。
