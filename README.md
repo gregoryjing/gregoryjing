@@ -14,6 +14,11 @@ Agent 工作流引擎——四阶段管线、DAG 并行执行、双模型协作�
 
 ---
 
-**Stack** · Python · RAG · Agent · SFT/LoRA · Prompt Engineering · SQLite · Docker · TRAE
+**Stack**
+ · Python · RAG · Agent · SFT/LoRA · Prompt Engineering · SQLite · Docker · TRAE
+
+## Publication
+
+- [EEG Signal Decoding via Grey Wolf Optimization and Multi-Feature Fusion](https://doi.org/10.1145/3727648.3727818) — CAICE '25, ACM
 
 gregoryjing@163.com
