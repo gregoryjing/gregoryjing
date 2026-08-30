@@ -42,7 +42,7 @@ AI 应用开发工程师，关注 **LLM Application Engineering**，目前主要
 * 基线结果记录与 Regression Testing
 * 能力变化与性能退化检测
 
-> **Focus:** RAG Engineering · Hybrid Retrieval · Evaluation · Benchmark · Regression TestingFocus: RAG Engineering · Hybrid Retrieval · Evaluation · Benchmark · Regression Testing
+> **Focus:** RAG Engineering · Hybrid Retrieval · Evaluation · Benchmark · Regression · Testing
 
 ---
 
@@ -85,7 +85,7 @@ EEG Signal
 * **Subjects:** 9
 * **Motor Imagery Classes:** Left Hand · Right Hand · Both Feet · Tongue
 * **Sampling Rate:** 250 Hz
-* **Core Methods:** DWT · AR · CSP · GWOCore Methods: DWT · AR · CSP · GWO
+* **Core Methods:** DWT · AR · CSP · GWO
 * **Accuracy:** **96.20%**
 * **Precision:** **97.71%**
 * **Recall:** **94.81%**
