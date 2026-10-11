@@ -2,10 +2,11 @@
 
 AI 应用开发工程师，专注于 **LLM Application Engineering**，目前主要探索如何让大模型应用从“能跑”走向 **可靠执行、可量化评估和持续演进**。
 
-我目前主要关注两个方向：
+我目前主要关注三个方向：
 
 * **Agent Reliability** —— 多步骤 Agent 的任务规划与可靠执行，包括工作流编排、DAG 并行、状态管理、容错与断点恢复。
 * **LLM Quality Engineering** —— LLM 应用输出质量的量化评估与持续验证，包括验收标准、Benchmark、基线管理、回归测试与能力退化检测。
+* **Enterprise Data Readiness** —— 让 LLM 应用拿到可信数据：文档解析、质量校验、置信度分流与人工复核。
 
 业余时间将这些思考落地为实际项目，并围绕核心执行链路与评估流程构建测试体系。
 
@@ -41,8 +42,26 @@ AI 应用开发工程师，专注于 **LLM Application Engineering**，目前主
 * Retrieval / Generation Benchmark
 * 基线结果记录与 Regression Testing
 * 能力变化与性能退化检测
+* **146 项单元测试**，ruff + mypy strict 质量门禁
 
 > **Focus:** RAG Engineering · Hybrid Retrieval · Evaluation · Benchmark · Regression Testing
+
+---
+
+### [docflow-ai](https://github.com/gregoryjing/docflow-ai)
+
+**An enterprise document intelligence platform: from messy files to trustworthy structured data.**
+
+把散落在 Excel / CSV / PDF / Word / 扫描件里的异构数据，变成可校验、可追溯、可流转的结构化数据。
+
+* 分级 OCR 链路（RapidOCR → 本地 VL 模型，置信度路由）
+* 三级字段映射（同义词词典 → 模糊匹配 → LLM 兜底）
+* 四层质量校验 + 置信度分流的人工复核工作流
+* TOML 可配置 Pipeline，支持步骤级断点续跑
+* 处理结果上的 RAG 检索，带引用问答
+* **132 项自动化测试**覆盖核心链路
+
+> **Focus:** Data Quality · OCR Pipeline · Human-in-the-Loop · RAG · Workflow Automation
 
 ---
 
